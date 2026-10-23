@@ -1,0 +1,19 @@
+{
+  "method": "Sobol multi-start + scipy least_squares TRF",
+  "n_starts": 30,
+  "n_train": 61,
+  "n_validation": 501,
+  "best_start": 26,
+  "best_train_shape_mse": 2.672463062927904e-06,
+  "validation_shape_mse": 2.3360507239683446e-06,
+  "validation_legacy_max_normalized_mse": 4.080833738148003e-06,
+  "output_scale": 16932139.376105387,
+  "elapsed_seconds": 14.330418199766427,
+  "theta_best": {
+    "phi_1a": 2.671205387116767,
+    "phi_1b": 0.8152834847894788,
+    "phi_2a": 3.1612208096234395,
+    "phi_2b": 1.9922350837839151,
+    "G_SOA": 1.4447196475697615
+  }
+}

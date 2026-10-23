@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "datasets": [
+    "MNIST",
+    "FashionMNIST"
+  ],
+  "architecture": [
+    784,
+    64,
+    10
+  ],
+  "epochs": 30,
+  "initial_lr": 0.01,
+  "lr_gamma": 0.95,
+  "weight_decay": 0.0001,
+  "batch_size": 256,
+  "test_batch_size": 512,
+  "n_physical_bases": 8,
+  "n_basis_candidates": 256,
+  "physical_lut_points": 4097,
+  "use_linear_bypass": true,
+  "hidden_dropout": 0.0,
+  "anchor_x2_theta": [
+    3.066376309,
+    0.797166695,
+    5.03189412,
+    0.895402378,
+    5.730379698
+  ]
+}

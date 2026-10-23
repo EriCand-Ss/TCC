@@ -1,0 +1,22 @@
+{
+  "dataset": "FashionMNIST",
+  "architecture": [
+    784,
+    64,
+    10
+  ],
+  "epochs": 30,
+  "optimizer": "AdamW",
+  "initial_learning_rate": 0.01,
+  "lr_gamma": 0.95,
+  "weight_decay": 0.0001,
+  "n_physical_bases": 8,
+  "lut_points": 4097,
+  "trainable_parameters": 457546,
+  "best_validation_epoch": 8,
+  "best_validation_accuracy": 0.8548,
+  "test_accuracy_at_best_validation": 0.8479,
+  "test_loss_at_best_validation": 0.5550001392364502,
+  "final_test_accuracy": 0.853,
+  "final_test_loss": 0.8882167718887329
+}
