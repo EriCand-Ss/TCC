@@ -855,7 +855,7 @@ class DRAMZIDigitApp:
         ttk.Label(
             self.left_panel,
             text=(
-                "Use apenas um digito. Botao esquerdo desenha; botao direito apaga."
+                "Use apenas um dígito. Botão esquerdo desenha; botão direito apaga."
             ),
             style="Muted.TLabel",
         ).pack(anchor="w", pady=(2, 10))
@@ -951,7 +951,7 @@ class DRAMZIDigitApp:
 
     def build_right_panel(self) -> None:
         ttk.Label(
-            self.right_panel, text="Predicao da rede", style="PanelTitle.TLabel"
+            self.right_panel, text="Predição da rede", style="PanelTitle.TLabel"
         ).pack(anchor="w")
 
         result_top = ttk.Frame(self.right_panel, style="Panel.TFrame")
@@ -1019,7 +1019,7 @@ class DRAMZIDigitApp:
         chart_frame.grid(row=0, column=1, sticky="nsew")
         ttk.Label(
             chart_frame,
-            text="Saidas softmax",
+            text="Saídas softmax",
             style="PanelTitle.TLabel",
         ).pack(anchor="w")
         self.probability_canvas = tk.Canvas(
@@ -1333,7 +1333,7 @@ class DRAMZIDigitApp:
         self.predicted_digit_label.configure(text=str(prediction.digit), fg=self.SUCCESS)
         self.confidence_label.configure(
             text=(
-                f"Eu acho que e: {prediction.digit}\n"
+                f"Predição: {prediction.digit}\n"
                 f"Score softmax: {100.0 * prediction.confidence:.2f}%"
             )
         )
