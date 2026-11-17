@@ -1,0 +1,56 @@
+{
+  "MNIST": {
+    "dataset": "MNIST",
+    "architecture": [
+      784,
+      64,
+      10
+    ],
+    "epochs": 30,
+    "optimizer": "AdamW",
+    "initial_learning_rate": 0.01,
+    "lr_gamma": 0.95,
+    "weight_decay": 0.0001,
+    "model_type": "edgewise_trainable_dramzi_kan",
+    "trainable_dramzi_edges": 50816,
+    "trainable_physical_controls_per_edge": 9,
+    "carrier_lut_points": 4097,
+    "carrier_lut_max_power_w": 0.004,
+    "output_chunk_size": 8,
+    "logit_scale": 0.125,
+    "trainable_parameters": 457418,
+    "best_validation_epoch": 30,
+    "best_validation_accuracy": 0.9048,
+    "test_accuracy_at_best_validation": 0.9111,
+    "test_loss_at_best_validation": 0.33627187397480013,
+    "final_test_accuracy": 0.9111,
+    "final_test_loss": 0.33627187397480013
+  },
+  "FashionMNIST": {
+    "dataset": "FashionMNIST",
+    "architecture": [
+      784,
+      64,
+      10
+    ],
+    "epochs": 30,
+    "optimizer": "AdamW",
+    "initial_learning_rate": 0.01,
+    "lr_gamma": 0.95,
+    "weight_decay": 0.0001,
+    "model_type": "edgewise_trainable_dramzi_kan",
+    "trainable_dramzi_edges": 50816,
+    "trainable_physical_controls_per_edge": 9,
+    "carrier_lut_points": 4097,
+    "carrier_lut_max_power_w": 0.004,
+    "output_chunk_size": 8,
+    "logit_scale": 0.125,
+    "trainable_parameters": 457418,
+    "best_validation_epoch": 30,
+    "best_validation_accuracy": 0.8442,
+    "test_accuracy_at_best_validation": 0.8388,
+    "test_loss_at_best_validation": 0.4646169987678528,
+    "final_test_accuracy": 0.8388,
+    "final_test_loss": 0.4646169987678528
+  }
+}

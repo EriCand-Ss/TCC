@@ -1,0 +1,33 @@
+{
+  "dataset": "FashionMNIST",
+  "checkpoint": "best",
+  "checkpoint_epoch": 30,
+  "test_examples": 10000,
+  "correct": 8388,
+  "incorrect": 1612,
+  "accuracy": 0.8388000130653381,
+  "class_names": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ],
+  "per_class_accuracy": [
+    0.8009999990463257,
+    0.9459999799728394,
+    0.7649999856948853,
+    0.8370000123977661,
+    0.7519999742507935,
+    0.8949999809265137,
+    0.5720000267028809,
+    0.9380000233650208,
+    0.9459999799728394,
+    0.9359999895095825
+  ]
+}

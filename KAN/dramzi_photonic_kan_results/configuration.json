@@ -1,0 +1,43 @@
+{
+  "seed": 42,
+  "datasets": [
+    "MNIST",
+    "FashionMNIST"
+  ],
+  "architecture": [
+    784,
+    64,
+    10
+  ],
+  "epochs": 30,
+  "initial_lr": 0.01,
+  "lr_gamma": 0.95,
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "test_batch_size": 256,
+  "model_type": "edgewise_trainable_dramzi_kan",
+  "edge_parameter_names": [
+    "MRR-1 resonance phase",
+    "MRR-1 amplitude transmission",
+    "MZI-1 phase a",
+    "MZI-1 phase b",
+    "MRR-2 resonance phase",
+    "MRR-2 amplitude transmission",
+    "MZI-2 phase a",
+    "MZI-2 phase b",
+    "SOA gain"
+  ],
+  "trainable_physical_controls_per_edge": 9,
+  "carrier_lut_points": 4097,
+  "carrier_lut_max_power_w": 0.004,
+  "output_chunk_size": 8,
+  "logit_scale": 0.125,
+  "mrr_attenuation_bounds": [
+    0.7,
+    0.99
+  ],
+  "soa_gain_bounds": [
+    1.0,
+    20.0
+  ]
+}
